@@ -33,9 +33,8 @@ public class main {
 		String reponse = "non";
 		Scanner saisie = new Scanner(System.in);
 		
-		// Tant que la reponse est non alors on repose la question
 		while(reponse.equalsIgnoreCase("non")){
-			System.out.println("Entrez votre sexe \nFemme ou Homme : ");
+			System.out.println("Entrez votre sexe : ");
 			sexe = saisie.next();
 			if(sexe.equalsIgnoreCase("femme")){ 
 				sexeInt = 2; 
@@ -47,7 +46,6 @@ public class main {
 			reponse = saisie.next();	
 		}
 		
-		// On retourne la valeur du sexe en tant qu'entier 1 ou 2 pour le moment
 		return sexeInt;
 	}
 }

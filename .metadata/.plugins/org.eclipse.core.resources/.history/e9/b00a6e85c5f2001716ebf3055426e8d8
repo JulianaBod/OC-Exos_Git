@@ -47,7 +47,6 @@ public class main {
 			reponse = saisie.next();	
 		}
 		
-		// On retourne la valeur du sexe en tant qu'entier 1 ou 2 pour le moment
 		return sexeInt;
 	}
 }
