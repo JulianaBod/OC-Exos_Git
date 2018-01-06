@@ -3,15 +3,13 @@ public class GeneratorVoeuxNoel {
 	public static String VoeuxFemme (int sexe, String prenom){
 		String voeux = null;
 		if(sexe == 2){
-			voeux = "*************************** ";
+			voeux = " *************************** ";
 			voeux = voeux  + "\nMa chère " + prenom;
 			voeux = voeux + "\nJe te souhaite une excellente année 2018 ! \nMon projet est simple mais le devoir le demande ^^";
-			voeux = voeux + "\n*************************** ";
 		} else if(sexe==1){
-			voeux = "*************************** ";
+			voeux = " *************************** ";
 			voeux = voeux  + "\nMon chèr " + prenom;
 			voeux = voeux + "\nJe te souhaite une excellente année 2018 ! \nMon projet est simple mais le devoir le demande ^^";
-			voeux = voeux + "\n*************************** ";
 		} else { 
 			voeux = "Qui es-tu, " + prenom + "?" ;
 			voeux = voeux + "\nQuoi qu'il en soit. \n JE te souhaite une excellente année 2018 !";
