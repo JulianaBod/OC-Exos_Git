@@ -1,10 +1,10 @@
 
 public class GeneratorVoeuxNoel {
-	public static String VoeuxFemme (String sexe, String prenom){
+	public static String VoeuxFemme (int sexe, String prenom){
 		String voeux = null;
-		if(sexe.equalsIgnoreCase("femme")){
+		if(sexe == 2){
 			voeux = "Ma chère " + prenom;
-		} else if(sexe.equalsIgnoreCase("homme")){
+		} else if(sexe==1){
 			voeux = "Mon chèr " + prenom;
 		} else { 
 			voeux = "Qui es-tu, " + prenom + "?" ;
